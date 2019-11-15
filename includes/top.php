@@ -1,6 +1,5 @@
-
 <?php
-  include("php/config.php");
+  include("php/init.php");
 ?>
 <!DOCTYPE html>
 <html>
