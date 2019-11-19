@@ -35,7 +35,8 @@ body{
 }
 
 #location-main,
-#date-info
+#date-info,
+#messages-box
 {
     font-weight: 600;
     padding-left: 30px;
@@ -44,4 +45,8 @@ body{
 #refresh-button{
   color:#000;
   display:inline-block;
+}
+
+#messages-box{
+  display: none;
 }
