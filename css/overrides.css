@@ -1,0 +1,47 @@
+html,
+body{
+  box-sizing:border-box;
+  min-width: 320px;
+  zoom:1;
+}
+
+.no-gutters{
+  padding:0 !important;
+  margin:0 !important;
+}
+
+.no-padding{
+  padding:0 !important;
+}
+
+.no-margin{
+  margin:0 !important;
+}
+
+#wrapper{
+  width:50%;
+  max-width:50%;
+  margin:0 auto;
+}
+
+#temp-main {
+    font-weight: 700;
+    font-size: 25pt;
+    margin-top: 18%;
+}
+
+#weather-icon-container {
+    width: 110px;
+}
+
+#location-main,
+#date-info
+{
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+#refresh-button{
+  color:#000;
+  display:inline-block;
+}
