@@ -34,6 +34,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row" id="messages-box">
+        <div class="col-md-12">
+          <div id="messages-all">
+            
+          </div>
         </div>
       </div>
     </div>
