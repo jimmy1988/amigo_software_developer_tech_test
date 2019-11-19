@@ -5,16 +5,35 @@
   <div class="row">
     <div class="col-md-12">
       <div class="row">
-        <div class="col-md-6" id="weather-icon"></div>
-        <div class="col-md-6" id="weather-temp"></div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 no-gutters" id="weather-icon"></div>
+            <div class="col-md-6 no-gutters" id="weather-temp"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          &nbsp;
+        </div>
       </div>
       <div class="row">
-        <div class="col-md-12" id="weather-location"></div>
+        <div class="col-md-12 no-gutters" id="weather-location"></div>
       </div>
       <div class="row">
-        <div class="col-md-10" id="weather-updated-info"></div>
-        <div class="col-md-2" id="refresh-button">
-
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-10 no-gutters" id="weather-updated-info"></div>
+                <div class="col-md-2 no-gutters" id="refresh-button">
+                  <a href="#" id="refresh-button"><i class="fas fa-sync-alt"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              &nbsp;
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
