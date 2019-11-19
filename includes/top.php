@@ -9,4 +9,5 @@
     <?php include("includes/styles.php"); ?>
   </head>
   <body>
-    <div class="container-fluid">
+    <div id="wrapper">
+      <div class="container-fluid">
